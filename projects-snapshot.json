@@ -1,0 +1,684 @@
+{
+  "projects": [
+    {
+      "id": "73c2f50e-e0a9-4f4a-a640-7bd38208036c",
+      "name": "LEFORM",
+      "year": 2020,
+      "type": "video",
+      "coverFormat": "landscape",
+      "cover": "/assets/projects/tilda-art-01.jpg",
+      "preview": null,
+      "url": "https://vimeo.com/467108695",
+      "categories": [
+        "art"
+      ],
+      "order": {
+        "art": 0
+      },
+      "sourceId": "tilda-art-01",
+      "createdAt": 1791814604771,
+      "updatedAt": 1792852249998
+    },
+    {
+      "id": "402343fa-4dc5-4011-9af7-0fe009fe0678",
+      "name": "Les Store",
+      "year": 2020,
+      "type": "video",
+      "coverFormat": "landscape",
+      "cover": "/assets/projects/tilda-art-02.jpg",
+      "preview": null,
+      "url": "https://vimeo.com/478951266",
+      "categories": [
+        "art"
+      ],
+      "order": {
+        "art": 2
+      },
+      "sourceId": "tilda-art-02",
+      "createdAt": 1791814604771,
+      "updatedAt": 1792852249998
+    },
+    {
+      "id": "46e84a23-c160-4983-9675-ea6551153a47",
+      "name": "ГЭС-2 - Vaults Collab",
+      "year": 2024,
+      "type": "video",
+      "coverFormat": "landscape",
+      "cover": "/assets/projects/tilda-art-03.jpg",
+      "preview": null,
+      "url": "https://vimeo.com/959829257",
+      "categories": [
+        "art"
+      ],
+      "order": {
+        "art": 1
+      },
+      "sourceId": "tilda-art-03",
+      "createdAt": 1791814604771,
+      "updatedAt": 1792852249998
+    },
+    {
+      "id": "30b40a9d-726a-431e-932d-6061bda8997c",
+      "name": "СБПЧ – Ничего Больше Нет",
+      "year": 2023,
+      "type": "video",
+      "coverFormat": "landscape",
+      "cover": "/assets/projects/tilda-art-04.jpg",
+      "preview": null,
+      "url": "https://vimeo.com/792990056",
+      "categories": [
+        "art"
+      ],
+      "order": {
+        "art": 3
+      },
+      "sourceId": "tilda-art-04",
+      "createdAt": 1791814604771,
+      "updatedAt": 1793374956032
+    },
+    {
+      "id": "31df0ace-4d74-489a-ba33-6285e5c64a7b",
+      "name": "USMANOVFVCK",
+      "year": 2025,
+      "type": "video",
+      "coverFormat": "landscape",
+      "cover": "/assets/projects/tilda-art-05.jpg",
+      "preview": null,
+      "url": "https://www.instagram.com/p/DGYDtT6i2T7/",
+      "categories": [
+        "art"
+      ],
+      "order": {
+        "art": 4
+      },
+      "sourceId": "tilda-art-05",
+      "createdAt": 1791814604771,
+      "updatedAt": 1792852249998
+    },
+    {
+      "id": "6f1a3998-d497-46b7-9785-873c73966858",
+      "name": "Rare Art of Help | Pavel Derevyanko",
+      "year": 2021,
+      "type": "video",
+      "coverFormat": "landscape",
+      "cover": "/assets/projects/tilda-art-06.jpg",
+      "preview": null,
+      "url": "https://vimeo.com/635250877",
+      "categories": [
+        "art"
+      ],
+      "order": {
+        "art": 5
+      },
+      "sourceId": "tilda-art-06",
+      "createdAt": 1791814604771,
+      "updatedAt": 1792852249998
+    },
+    {
+      "id": "25894a15-eeea-4d89-96e7-01e36f7af512",
+      "name": "SALUKI - Ведьма",
+      "year": 2023,
+      "type": "video",
+      "coverFormat": "landscape",
+      "cover": "/assets/projects/tilda-music-video-01.jpg",
+      "preview": null,
+      "url": "https://youtu.be/gaxPqUW1JfU",
+      "categories": [
+        "music-video"
+      ],
+      "order": {},
+      "sourceId": "tilda-music-video-01",
+      "createdAt": 1791814604771,
+      "updatedAt": 1791886527131
+    },
+    {
+      "id": "b4369443-8280-439e-ad88-d4f82293dd2b",
+      "name": "zavet - paranoia",
+      "year": 2020,
+      "type": "video",
+      "coverFormat": "landscape",
+      "cover": "/assets/projects/tilda-music-video-02.jpg",
+      "preview": null,
+      "url": "https://youtu.be/SIrFJN1vtOA",
+      "categories": [
+        "music-video"
+      ],
+      "order": {},
+      "sourceId": "tilda-music-video-02",
+      "createdAt": 1791814604771,
+      "updatedAt": 1791886527132
+    },
+    {
+      "id": "cd73ada3-16d1-4736-95fb-9cb0c45f9677",
+      "name": "Cream Soda - На Сиреневой Луне",
+      "year": 2024,
+      "type": "video",
+      "coverFormat": "landscape",
+      "cover": "/assets/projects/tilda-music-video-03.jpg",
+      "preview": null,
+      "url": "https://youtu.be/Mq4kndZ_1P4",
+      "categories": [
+        "music-video"
+      ],
+      "order": {},
+      "sourceId": "tilda-music-video-03",
+      "createdAt": 1791814604771,
+      "updatedAt": 1791886527132
+    },
+    {
+      "id": "6166ba4e-410d-4f5a-bb4e-8414335d2122",
+      "name": "Mirele & Петар Мартич - Последний Вальс",
+      "year": 2026,
+      "type": "video",
+      "coverFormat": "landscape",
+      "cover": "/assets/projects/tilda-music-video-04.jpg",
+      "preview": null,
+      "url": "https://youtu.be/sYi1FiC45Qg",
+      "categories": [
+        "music-video"
+      ],
+      "order": {},
+      "sourceId": "tilda-music-video-04",
+      "createdAt": 1791814604771,
+      "updatedAt": 1791886527133
+    },
+    {
+      "id": "2f73b4a5-04a6-4773-a8f9-b73c7c6c557a",
+      "name": "ЛСП, dose - Солнце Золотое",
+      "year": 2021,
+      "type": "video",
+      "coverFormat": "landscape",
+      "cover": "/assets/projects/tilda-music-video-05.jpg",
+      "preview": null,
+      "url": "https://youtu.be/co1oQKwkw-8",
+      "categories": [
+        "music-video"
+      ],
+      "order": {},
+      "sourceId": "tilda-music-video-05",
+      "createdAt": 1791814604771,
+      "updatedAt": 1791886527134
+    },
+    {
+      "id": "a8bd657f-9ed8-4bfa-90e1-edc02e23c21a",
+      "name": "Глюк'оZа - Заноза",
+      "year": 2020,
+      "type": "video",
+      "coverFormat": "landscape",
+      "cover": "/assets/projects/tilda-music-video-06.jpg",
+      "preview": null,
+      "url": "https://youtu.be/VLh7-VL6iHk",
+      "categories": [
+        "music-video"
+      ],
+      "order": {},
+      "sourceId": "tilda-music-video-06",
+      "createdAt": 1791814604771,
+      "updatedAt": 1791886527135
+    },
+    {
+      "id": "7ff52ef7-5c1b-4a8b-9a60-48e49ce7a563",
+      "name": "Антология технологий Яндекс.Такси",
+      "year": 2023,
+      "type": "video",
+      "coverFormat": "landscape",
+      "cover": "/assets/projects/tilda-docs-01.jpg",
+      "preview": null,
+      "url": "https://youtu.be/IeFvaGmoHZs",
+      "categories": [
+        "docs"
+      ],
+      "order": {},
+      "sourceId": "tilda-docs-01",
+      "createdAt": 1791814604771,
+      "updatedAt": 1791886527135
+    },
+    {
+      "id": "a7fd91f4-f42e-4190-984c-a929e9e4ed36",
+      "name": "Культур Мультур",
+      "year": 2023,
+      "type": "website",
+      "coverFormat": "landscape",
+      "cover": "/assets/projects/tilda-docs-02.png",
+      "preview": null,
+      "url": "https://www.kinopoisk.ru/series/5397484/",
+      "categories": [
+        "docs"
+      ],
+      "order": {},
+      "sourceId": "tilda-docs-02",
+      "createdAt": 1791814604771,
+      "updatedAt": 1791886527136
+    },
+    {
+      "id": "276ccfac-aae4-44a6-8fc9-8e380e33d7d5",
+      "name": "Перспектива",
+      "year": 2022,
+      "type": "website",
+      "coverFormat": "landscape",
+      "cover": "/assets/projects/tilda-docs-03.jpg",
+      "preview": null,
+      "url": "https://beatfilmfestival.ru/movies/perspektiva",
+      "categories": [
+        "docs"
+      ],
+      "order": {},
+      "sourceId": "tilda-docs-03",
+      "createdAt": 1791814604771,
+      "updatedAt": 1791886527136
+    },
+    {
+      "id": "6a75e439-c671-42d2-a729-6a18c3ff33fd",
+      "name": "Ой, мамочки",
+      "year": 2026,
+      "type": "video",
+      "coverFormat": "landscape",
+      "cover": "/media/89b73da3-995c-480e-b0c0-bd9384a6fc96.jpg",
+      "preview": null,
+      "url": "https://vkvideo.ru/video-211141010_456240357",
+      "categories": [
+        "docs"
+      ],
+      "order": {},
+      "sourceId": "tilda-docs-04",
+      "createdAt": 1791814604771,
+      "updatedAt": 1793374560579
+    },
+    {
+      "id": "fe035a0b-0672-4eb2-a9ea-9358d0fe8bea",
+      "name": "Рваные одежды",
+      "year": 2021,
+      "type": "website",
+      "coverFormat": "landscape",
+      "cover": "/assets/projects/tilda-docs-05.jpg",
+      "preview": null,
+      "url": "https://beatfilmfestival.ru/movies/rvanye-odezhdy",
+      "categories": [
+        "docs"
+      ],
+      "order": {},
+      "sourceId": "tilda-docs-05",
+      "createdAt": 1791814604771,
+      "updatedAt": 1791886527138
+    },
+    {
+      "id": "50bc952e-82a2-4021-8667-1e2487e6cb49",
+      "name": "Остров Мечты",
+      "year": 2025,
+      "type": "video",
+      "coverFormat": "landscape",
+      "cover": "/assets/projects/tilda-docs-06.jpg",
+      "preview": null,
+      "url": "https://youtu.be/POUC_Bvnrd0",
+      "categories": [
+        "docs"
+      ],
+      "order": {},
+      "sourceId": "tilda-docs-06",
+      "createdAt": 1791814604771,
+      "updatedAt": 1791886527138
+    },
+    {
+      "id": "3a8b93f5-2e07-4023-a25a-6661adc63031",
+      "name": "МВидео - Всем два!",
+      "year": 2024,
+      "type": "video",
+      "coverFormat": "landscape",
+      "cover": "/assets/projects/tilda-commercials-01.jpg",
+      "preview": null,
+      "url": "https://vimeo.com/1005504865",
+      "categories": [
+        "commercials"
+      ],
+      "order": {
+        "commercials": 0
+      },
+      "sourceId": "tilda-commercials-01",
+      "createdAt": 1791814604771,
+      "updatedAt": 1792971613428
+    },
+    {
+      "id": "b6bca2e1-008f-44a4-aef6-776c16554323",
+      "name": "ВТБ - Молодежная карта",
+      "year": 2026,
+      "type": "video",
+      "coverFormat": "landscape",
+      "cover": "/assets/projects/tilda-commercials-02.jpg",
+      "preview": null,
+      "url": "https://vimeo.com/1155819913",
+      "categories": [
+        "commercials"
+      ],
+      "order": {
+        "commercials": 1
+      },
+      "sourceId": "tilda-commercials-02",
+      "createdAt": 1791814604771,
+      "updatedAt": 1792971613428
+    },
+    {
+      "id": "9fdc8b01-b845-48b7-87eb-442ee1b7df2c",
+      "name": "L’Oréal Paris",
+      "year": 2021,
+      "type": "video",
+      "coverFormat": "landscape",
+      "cover": "/media/817858d9-d09d-444c-adcb-69e2a07b76fa.jpg",
+      "preview": null,
+      "url": "https://disk.yandex.ru/i/ccAT2-5X_u-Ndw",
+      "categories": [
+        "commercials"
+      ],
+      "order": {
+        "commercials": 5
+      },
+      "sourceId": "tilda-commercials-03",
+      "createdAt": 1791814604771,
+      "updatedAt": 1792971613428
+    },
+    {
+      "id": "0bc2663d-3d69-4efa-8b04-152af03d13bb",
+      "name": "Сбермаркет",
+      "year": 2023,
+      "type": "video",
+      "coverFormat": "landscape",
+      "cover": "/media/94862703-c21a-4c2a-abb9-81f05b400afe.jpg",
+      "preview": null,
+      "url": "https://disk.yandex.ru/i/8G_1CNIERE01RQ",
+      "categories": [
+        "commercials"
+      ],
+      "order": {
+        "commercials": 6
+      },
+      "sourceId": "tilda-commercials-04",
+      "createdAt": 1791814604771,
+      "updatedAt": 1792971613428
+    },
+    {
+      "id": "9b71e370-dd42-4833-9f35-e9c2a71ad462",
+      "name": "Леонардо",
+      "year": 2022,
+      "type": "video",
+      "coverFormat": "landscape",
+      "cover": "/assets/projects/tilda-commercials-05.png",
+      "preview": null,
+      "url": "https://disk.yandex.ru/i/qRT-pJUoyze0yw",
+      "categories": [
+        "commercials"
+      ],
+      "order": {
+        "commercials": 7
+      },
+      "sourceId": "tilda-commercials-05",
+      "createdAt": 1791814604771,
+      "updatedAt": 1792971613428
+    },
+    {
+      "id": "7fa90b7f-181d-4ee1-9fd7-c9948a9c4743",
+      "name": "ВТБ - Ценность достижений",
+      "year": 2021,
+      "type": "video",
+      "coverFormat": "landscape",
+      "cover": "/assets/projects/tilda-commercials-06.jpg",
+      "preview": null,
+      "url": "https://disk.yandex.ru/d/h7se50PKo0Ho4A",
+      "categories": [
+        "commercials"
+      ],
+      "order": {
+        "commercials": 10
+      },
+      "sourceId": "tilda-commercials-06",
+      "createdAt": 1791814604771,
+      "updatedAt": 1792971613428
+    },
+    {
+      "id": "b0ef4cc1-eb52-4870-bacd-2f7d9caa23c5",
+      "name": "Яндекс - Yandex Ads",
+      "year": 2023,
+      "type": "video",
+      "coverFormat": "landscape",
+      "cover": "/assets/projects/tilda-commercials-07.jpg",
+      "preview": null,
+      "url": "https://disk.yandex.ru/i/7xg6J8ekufBWTQ",
+      "categories": [
+        "commercials"
+      ],
+      "order": {
+        "commercials": 8
+      },
+      "sourceId": "tilda-commercials-07",
+      "createdAt": 1791814604771,
+      "updatedAt": 1792971613428
+    },
+    {
+      "id": "c3ff0f8d-eff6-47db-894f-5238f0f3048b",
+      "name": "Mail.ru - Капсула Маруся",
+      "year": 2021,
+      "type": "video",
+      "coverFormat": "landscape",
+      "cover": "/assets/projects/tilda-commercials-08.jpg",
+      "preview": null,
+      "url": "https://disk.yandex.ru/i/bYzGuifzyqoqiA",
+      "categories": [
+        "commercials"
+      ],
+      "order": {
+        "commercials": 11
+      },
+      "sourceId": "tilda-commercials-08",
+      "createdAt": 1791814604771,
+      "updatedAt": 1792971613428
+    },
+    {
+      "id": "97cccc22-2066-41cf-9e74-77b6cd0f0de3",
+      "name": "Сбербанк - SberSeasons",
+      "year": 2021,
+      "type": "video",
+      "coverFormat": "landscape",
+      "cover": "/assets/projects/tilda-commercials-09.jpg",
+      "preview": null,
+      "url": "https://vimeo.com/652879441",
+      "categories": [
+        "commercials"
+      ],
+      "order": {
+        "commercials": 4
+      },
+      "sourceId": "tilda-commercials-09",
+      "createdAt": 1791814604771,
+      "updatedAt": 1792971613428
+    },
+    {
+      "id": "e1db4488-0355-4779-b353-9bc231973a82",
+      "name": "Яндекс.Такси - Промо",
+      "year": 2023,
+      "type": "video",
+      "coverFormat": "landscape",
+      "cover": "/assets/projects/tilda-commercials-10.jpg",
+      "preview": null,
+      "url": "https://youtu.be/uUmv8bUZWZg",
+      "categories": [
+        "commercials"
+      ],
+      "order": {
+        "commercials": 2
+      },
+      "sourceId": "tilda-commercials-10",
+      "createdAt": 1791814604771,
+      "updatedAt": 1792971613428
+    },
+    {
+      "id": "f9e1f0b5-502b-4b39-a2e9-16594838db74",
+      "name": "ВТБ - Мультикарта Visa",
+      "year": 2021,
+      "type": "video",
+      "coverFormat": "landscape",
+      "cover": "/assets/projects/tilda-commercials-11.jpg",
+      "preview": null,
+      "url": "https://vimeo.com/631143924",
+      "categories": [
+        "commercials"
+      ],
+      "order": {
+        "commercials": 3
+      },
+      "sourceId": "tilda-commercials-11",
+      "createdAt": 1791814604771,
+      "updatedAt": 1792971613428
+    },
+    {
+      "id": "e884851e-601d-45b5-a90f-c4756eab581d",
+      "name": "Сбер - Сберкарта",
+      "year": 2022,
+      "type": "video",
+      "coverFormat": "landscape",
+      "cover": "/assets/projects/tilda-commercials-12.jpg",
+      "preview": null,
+      "url": "https://vimeo.com/684609195",
+      "categories": [
+        "commercials"
+      ],
+      "order": {
+        "commercials": 12
+      },
+      "sourceId": "tilda-commercials-12",
+      "createdAt": 1791814604771,
+      "updatedAt": 1792971613428
+    },
+    {
+      "id": "22399d69-f4d4-4ba4-a585-2b172f7bdf9c",
+      "name": "ТНТ - Авито",
+      "year": 2022,
+      "type": "video",
+      "coverFormat": "landscape",
+      "cover": "/assets/projects/tilda-commercials-13.jpg",
+      "preview": null,
+      "url": "https://vimeo.com/669448777",
+      "categories": [
+        "commercials"
+      ],
+      "order": {
+        "commercials": 13
+      },
+      "sourceId": "tilda-commercials-13",
+      "createdAt": 1791814604771,
+      "updatedAt": 1792971613428
+    },
+    {
+      "id": "341a5696-3dfd-4872-8184-c0c2d1a5a638",
+      "name": "Эргоферон",
+      "year": 2026,
+      "type": "video",
+      "coverFormat": "landscape",
+      "cover": "/media/924f5777-7981-4299-a699-4f38ed48f25e.jpg",
+      "preview": null,
+      "url": "https://disk.yandex.ru/i/rwSdn89-iCbgIw",
+      "categories": [
+        "commercials"
+      ],
+      "order": {
+        "commercials": 9
+      },
+      "sourceId": "tilda-commercials-14",
+      "createdAt": 1791814604771,
+      "updatedAt": 1792971613428
+    },
+    {
+      "id": "d7623ed2-b053-4ae0-be2a-83b970f9161b",
+      "name": "Ренгалин",
+      "year": 2026,
+      "type": "video",
+      "coverFormat": "landscape",
+      "cover": "/media/88830d59-e09d-46be-bfdf-8d78f99e3b9e.jpg",
+      "preview": null,
+      "url": "https://disk.yandex.ru/i/KmIwYzGPk4e8mw",
+      "categories": [
+        "commercials"
+      ],
+      "order": {
+        "commercials": 14
+      },
+      "sourceId": "tilda-commercials-15",
+      "createdAt": 1791814604771,
+      "updatedAt": 1792971613428
+    },
+    {
+      "id": "edaca554-bf45-4766-95d2-3c93c5fdb097",
+      "name": "Шурале (set edit)",
+      "year": 2025,
+      "type": "website",
+      "coverFormat": "poster",
+      "cover": "/assets/projects/tilda-cinema-01.webp",
+      "preview": null,
+      "url": "https://bosfor.pictures/film/shurale/",
+      "categories": [
+        "cinema"
+      ],
+      "order": {
+        "cinema": 2
+      },
+      "sourceId": "tilda-cinema-01",
+      "createdAt": 1791814604772,
+      "updatedAt": 1792852339047
+    },
+    {
+      "id": "abf602f2-7c39-45e0-bebf-fcb259a38844",
+      "name": "Бери да помни (set edit)",
+      "year": 2023,
+      "type": "website",
+      "coverFormat": "poster",
+      "cover": "/assets/projects/tilda-cinema-02.webp",
+      "preview": null,
+      "url": "https://www.kinopoisk.ru/film/5270839/",
+      "categories": [
+        "cinema"
+      ],
+      "order": {
+        "cinema": 1
+      },
+      "sourceId": "tilda-cinema-02",
+      "createdAt": 1791814604772,
+      "updatedAt": 1792852339047
+    },
+    {
+      "id": "b79a07b9-30ee-4030-b5e7-cdaeff87dea1",
+      "name": "Казино (set edit)",
+      "year": 2026,
+      "type": "website",
+      "coverFormat": "poster",
+      "cover": "/assets/projects/tilda-cinema-03.webp",
+      "preview": null,
+      "url": "https://www.kinopoisk.ru/series/9338435/",
+      "categories": [
+        "cinema"
+      ],
+      "order": {
+        "cinema": 0
+      },
+      "sourceId": "tilda-cinema-03",
+      "createdAt": 1791814604772,
+      "updatedAt": 1792852339047
+    },
+    {
+      "id": "02450562-bbfb-4c68-8091-4cc9680e2042",
+      "name": "Никто не знает про Маньпупунер (set edit)",
+      "year": 2025,
+      "type": "website",
+      "coverFormat": "poster",
+      "cover": "/assets/projects/tilda-cinema-04.webp",
+      "preview": null,
+      "url": "https://www.kinopoisk.ru/series/6038925/",
+      "categories": [
+        "cinema"
+      ],
+      "order": {
+        "cinema": 3
+      },
+      "sourceId": "tilda-cinema-04",
+      "createdAt": 1791814604772,
+      "updatedAt": 1792852339047
+    }
+  ],
+  "generatedAt": "2026-11-02T13:55:03.895853+00:00"
+}

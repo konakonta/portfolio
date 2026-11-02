@@ -1,4 +1,4 @@
-import {BACKGROUND_LAYOUTS} from './background-layouts.js?v=d7081bcb6497';
+import {BACKGROUND_LAYOUTS} from './background-layouts.js?v=89652b9ea833';
 
 export function isIOSSafari({userAgent='',platform='',maxTouchPoints=0,standalone=false}={}) {
   const ios=/iPhone|iPad|iPod/.test(userAgent) || (platform==='MacIntel' && maxTouchPoints>1);

@@ -1,9 +1,10 @@
-import {CATEGORIES,videoSource} from './project-config.js?v=d7081bcb6497';
-import {createProjectPreview,centeredProjectCard} from './project-preview.js?v=d7081bcb6497';
-import {createPortfolioBackground} from './portfolio-background.js?v=d7081bcb6497';
-import {createAlbumPlayer} from './album-player.js?v=d7081bcb6497';
-import {publicProjectsUrl,projectUrl} from './deployment-config.js?v=d7081bcb6497';
-import {mobileRowGeometry,swipeStep,projectRibbon,middleRibbonIndex,desktopRowGeometry} from './project-navigation.js?v=d7081bcb6497';
+import {CATEGORIES,videoSource} from './project-config.js?v=89652b9ea833';
+import {createProjectPreview,centeredProjectCard} from './project-preview.js?v=89652b9ea833';
+import {createPortfolioBackground} from './portfolio-background.js?v=89652b9ea833';
+import {createAlbumPlayer} from './album-player.js?v=89652b9ea833';
+import {publicProjectsUrl,projectUrl} from './deployment-config.js?v=89652b9ea833';
+import {startProjectLoading} from './project-loader.js?v=89652b9ea833';
+import {mobileRowGeometry,swipeStep,projectRibbon,middleRibbonIndex,desktopRowGeometry} from './project-navigation.js?v=89652b9ea833';
 
 const root = document.querySelector('.portfolio');
 const viewport = document.querySelector('.projects-viewport');
@@ -819,26 +820,26 @@ dialog.addEventListener('click',event=>{if(event.target===dialog){const bounds=d
 
 applyCategory(category);
 
-try {
-  const response = await fetch(publicProjectsUrl(),{cache:'no-store',credentials:'omit'});
-  if (!response.ok) throw new Error(`Projects: ${response.status}`);
-  ({projects} = await response.json());
-  render();
-} catch (error) {
-  console.error(error);
-  document.querySelector('#category-announcement').classList.remove('sr-only');
-  document.querySelector('#category-announcement').textContent = 'Не удалось загрузить проекты. Попробуйте обновить страницу.';
-}
-let refreshing=false;
-async function refreshProjects(){
-  if(refreshing || dialog.open || changing)return;
-  refreshing=true;
-  try{
-    const response=await fetch(publicProjectsUrl(),{cache:'no-store',credentials:'omit'});
-    if(response.ok){const data=await response.json();if(JSON.stringify(data.projects)!==JSON.stringify(projects)){projects=data.projects;render();}}
-  }catch{}finally{refreshing=false;}
-}
+let projectStorage;
+try { projectStorage = window.localStorage; } catch {}
+const projectsLoader = startProjectLoading({
+  apiUrl:publicProjectsUrl(),
+  snapshotUrl:new URL('./projects-snapshot.json',import.meta.url).href,
+  storage:projectStorage,
+  onProjects(list) {
+    if (JSON.stringify(list) !== JSON.stringify(projects)) { projects = list; render(); }
+    const announcement = document.querySelector('#category-announcement');
+    announcement.classList.add('sr-only');
+    announcement.textContent = `Категория ${sections.find(section => section.id === category)?.label || category}`;
+  },
+  onUnavailable() {
+    document.querySelector('#category-announcement').classList.remove('sr-only');
+    document.querySelector('#category-announcement').textContent = 'Не удалось загрузить проекты. Попробуйте обновить страницу.';
+  },
+});
+function refreshProjects(){ if (!dialog.open && !changing) return projectsLoader.refresh(); }
 window.addEventListener('pageshow',event=>{if(event.persisted)refreshProjects();});
 window.addEventListener('focus',refreshProjects);
+window.addEventListener('online',refreshProjects);
 document.addEventListener('visibilitychange',()=>{if(!document.hidden)refreshProjects();});
 document.fonts.ready.then(scheduleLayout);

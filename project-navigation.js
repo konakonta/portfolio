@@ -1,4 +1,4 @@
-import {projectsForCategory} from './project-config.js?v=d7081bcb6497';
+import {projectsForCategory} from './project-config.js?v=89652b9ea833';
 
 const clamp = (value, min, max) => Math.max(min, Math.min(max, value));
 

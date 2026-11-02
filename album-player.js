@@ -1,5 +1,5 @@
-import {BACKGROUND_LAYOUTS} from './background-layouts.js?v=d7081bcb6497';
-import {collageRectangle} from './portfolio-background.js?v=d7081bcb6497';
+import {BACKGROUND_LAYOUTS} from './background-layouts.js?v=89652b9ea833';
+import {collageRectangle} from './portfolio-background.js?v=89652b9ea833';
 
 export function createAlbumPlayback(button,audio,{onStart=()=>{},status}={}) {
   let requested=false;
