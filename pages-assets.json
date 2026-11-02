@@ -1,0 +1,333 @@
+{
+  "origin": "https://portfolio.racoome.workers.dev",
+  "files": [
+    {
+      "path": "assets/audio/fast-learner.mp3",
+      "sha256": "6e4e487de0e871796b48e55de35e733363bddc378928a4523a92fb2fd10477e4"
+    },
+    {
+      "path": "assets/collage/album-sleeve.png",
+      "sha256": "65d9a243f7a8df7f757e78416f0ad6402a98a019b44b870b811277478967d027"
+    },
+    {
+      "path": "assets/collage/back.png",
+      "sha256": "6350a9ff9f388cf984177b9fc8303b25fd538aeaa1787c24e145b262bccfe288"
+    },
+    {
+      "path": "assets/collage/background face.png",
+      "sha256": "46a5b4e915fcc1a9c100204a8ea95620a7969543a82665a6682f3dd29f38cddd"
+    },
+    {
+      "path": "assets/collage/background-1.png",
+      "sha256": "9dda23ecf443bc5e2d0404685e959c154829c2747ba9bd74d4911ef6e7473e85"
+    },
+    {
+      "path": "assets/collage/background.png",
+      "sha256": "ee4f957e62f88fc3d4396cd51bd7f390acceac59c02a2030ce6fa797d774c4c0"
+    },
+    {
+      "path": "assets/collage/blue background.png",
+      "sha256": "f6ac200330552109fc58d2ef0c86a166dc68f269e19938cb1098bc842b03ce24"
+    },
+    {
+      "path": "assets/collage/blur background.png",
+      "sha256": "029db6525c4d361cfde512d9840fc9a14d094e90c39d58163d440126c73553bd"
+    },
+    {
+      "path": "assets/collage/camera.png",
+      "sha256": "fd840dc7ec539084ea88c60b9710f0586b7448adc015bfffcebb8b2402a915db"
+    },
+    {
+      "path": "assets/collage/casino for background.png",
+      "sha256": "dea4b28fe43bd7192856263970120f5155253f5d13b96445e6c6c1bed0937f6d"
+    },
+    {
+      "path": "assets/collage/casino for projects.png",
+      "sha256": "66bd33b3e1b629f2b4df61c5ee0ae91d682e659892cacc4933f5d2802876a06f"
+    },
+    {
+      "path": "assets/collage/eye.png",
+      "sha256": "8e38ee7e09e20a3f679db95aeb10a7b491a72023654a3c637b5762ae20066c5a"
+    },
+    {
+      "path": "assets/collage/fighter.png",
+      "sha256": "eebfeb19d9f9aa738c8653945daad402b230331bfec63c37d69ef54fe18d02db"
+    },
+    {
+      "path": "assets/collage/green goo.png",
+      "sha256": "d5e55fbf0d96fea04b59c7fd2c8db7c4caeafde2aa49180c2d1ba3c77d6a6687"
+    },
+    {
+      "path": "assets/collage/green slash.png",
+      "sha256": "5bc5027debbd37556a39a33e286fd508b1bbacf9d18bbee6a353444fd08b36f7"
+    },
+    {
+      "path": "assets/collage/gun.png",
+      "sha256": "608c78b5cc70f7129e1a3d73d1bf2d976034b1e4cfda116cdae53af508c096ef"
+    },
+    {
+      "path": "assets/collage/hand.png",
+      "sha256": "d895c3ba6fe4f977266b5d8f03bc22daad3eb39e65b896230ed77d7222b62cae"
+    },
+    {
+      "path": "assets/collage/inside eye.png",
+      "sha256": "11e613b5b6d5efa858a660e9bfd0c7b7726554b4f49d16cbf843bae64976e2ab"
+    },
+    {
+      "path": "assets/collage/iris.png",
+      "sha256": "854b2570e91b4bbc6dce36cfe5954a42a9d644051e3ca9238e0d4ac37b01c83e"
+    },
+    {
+      "path": "assets/collage/original_car_with_flames_cutout.png",
+      "sha256": "65f90bf6fb7dca8739b487f3721a074c9c606d2a25c2c1ea816dc079978e73df"
+    },
+    {
+      "path": "assets/collage/photo.png",
+      "sha256": "0c631a9bd0e36f34ec6ed7e2f9b5f1e1a675b11db11fc21cf2090ac30ed5cee6"
+    },
+    {
+      "path": "assets/collage/rampage.png",
+      "sha256": "f0a165c246ca249df2eaa6d9cd5aa4a655f761970f4190a17a95248c0f413285"
+    },
+    {
+      "path": "assets/collage/sex copy 2.png",
+      "sha256": "a278d0624e0ef40ce6457412e8e9c56e5ed0abde156f37c6d4e36fbae25c3ae0"
+    },
+    {
+      "path": "assets/collage/sex-1.png",
+      "sha256": "a278d0624e0ef40ce6457412e8e9c56e5ed0abde156f37c6d4e36fbae25c3ae0"
+    },
+    {
+      "path": "assets/collage/sex.png",
+      "sha256": "a0c94ae2d1557b67e6fc5777349eb50b50092472c9a9cdc3ab866b8bea2e93ff"
+    },
+    {
+      "path": "assets/collage/spark.png",
+      "sha256": "52517ba8c58c7d41a30e73502802fc98ec165423d477c1c41368720061a5cb86"
+    },
+    {
+      "path": "assets/collage/text blue 2.png",
+      "sha256": "2da251802f5c1cd6eab991fd400a52bf692e9959b150601004bf2ccc33648423"
+    },
+    {
+      "path": "assets/collage/text blue main.png",
+      "sha256": "f1d4cd35fe89fd8521f0751315576b55a33aa9204fd3ef5b15cc92fcd642b652"
+    },
+    {
+      "path": "assets/collage/text with gun.png",
+      "sha256": "1fc77429eada3623755893c4713d78e109f91618206014d04acf10ca51fe1892"
+    },
+    {
+      "path": "assets/collage/text.png",
+      "sha256": "3916b939efb4f576706d09d98e0b48d8287077b377129b1a4729e613fa1728cb"
+    },
+    {
+      "path": "assets/collage/vinyl-record.png",
+      "sha256": "d758d7b40b3c5787dd9327ac53a6e935ac78824a1c1ad82096187d38c3bfdf00"
+    },
+    {
+      "path": "assets/fonts/InterTight-OFL.txt",
+      "sha256": "50240ab035cf1b6b3307940235481d515c4b6de3ab1fa843dbe59e7892cb9d58"
+    },
+    {
+      "path": "assets/fonts/InterTight.ttf",
+      "sha256": "b81b73dcb64df3c230cabade7df6c5773bf863233f24c9ee51087519f1f88b6f"
+    },
+    {
+      "path": "assets/ivan-donskoy-logo-desktop.png",
+      "sha256": "890d978fc6d6a0dac6d45dd9ac8688dac9d0b03447c6d2deb35c1028dfbf492a"
+    },
+    {
+      "path": "assets/ivan-donskoy-logo-mobile.png",
+      "sha256": "2e108e742a6af002261d96f1fb96366bfa7eb2984ad2f44c71a2ee30f978b481"
+    },
+    {
+      "path": "assets/projects/tilda-art-01.jpg",
+      "sha256": "d9c8ab83998ccc05153cb36dc5d6e602686c16e08f138cdbb3dacaef7213c39b"
+    },
+    {
+      "path": "assets/projects/tilda-art-02.jpg",
+      "sha256": "23714fb6c32bde34b0c20ac3ea89f29d2cc137abaaecec295bfdfda2720c7f22"
+    },
+    {
+      "path": "assets/projects/tilda-art-03.jpg",
+      "sha256": "51402ed4266bec8ef5aad9478c81abea05cf8b392e011efd999065f50895d968"
+    },
+    {
+      "path": "assets/projects/tilda-art-04.jpg",
+      "sha256": "d5ccf180555d116c01c9129d936ae303489b5c49d5eacd7b0585303d37b71c85"
+    },
+    {
+      "path": "assets/projects/tilda-art-05.jpg",
+      "sha256": "f47b534a6f8e49085dcf0a773efa5f185653eb81c5cc8b2f31ce871cae5c5d07"
+    },
+    {
+      "path": "assets/projects/tilda-art-06.jpg",
+      "sha256": "8b9782132954bcc76ef2b984cd939144872be2b5e6dcd8f327f7770f7fc5a954"
+    },
+    {
+      "path": "assets/projects/tilda-cinema-01.webp",
+      "sha256": "07349ecdc19b72137f7d3b411be87980b325759e075eb9b9cefab2d40b974222"
+    },
+    {
+      "path": "assets/projects/tilda-cinema-02.webp",
+      "sha256": "d93a4673d41ed11ec8f426e2c3309e3a7f80dbd4a829925441ae1838a8e49c59"
+    },
+    {
+      "path": "assets/projects/tilda-cinema-03.webp",
+      "sha256": "4cbd41766f8d6d751901a72cfdd3d0771a91ccc6b2629b099b06180dc93eb9f7"
+    },
+    {
+      "path": "assets/projects/tilda-cinema-04.webp",
+      "sha256": "05614f8e722c55059835581f06ff20e6780cc60d6da444a211318703a3e6bb01"
+    },
+    {
+      "path": "assets/projects/tilda-commercials-01.jpg",
+      "sha256": "5a26b63334b31723cd397e5e9ffc690926c1b7b257ad05da327db4b98ff320ff"
+    },
+    {
+      "path": "assets/projects/tilda-commercials-02.jpg",
+      "sha256": "fd4775bae3d2be5ebd99497e4d3580b70540e6ec3597a2f4ebb5724f63c87d4e"
+    },
+    {
+      "path": "assets/projects/tilda-commercials-03.png",
+      "sha256": "8f42f5e9c76156ed41ca8f7a2f13f8e601813084cc4c7c320c6fc9f43d6ab6ed"
+    },
+    {
+      "path": "assets/projects/tilda-commercials-04.png",
+      "sha256": "8ce9e4266c5a291cc90430c4313a1eb1050c7a0753cc9607c814c7cd202de2d7"
+    },
+    {
+      "path": "assets/projects/tilda-commercials-05.png",
+      "sha256": "788fe7c3059e97b181c6bf1116cc3a5895e4b2efb39491863660093f6f110201"
+    },
+    {
+      "path": "assets/projects/tilda-commercials-06.jpg",
+      "sha256": "60c90c6075950be4b19e2fc93e115a45f8eaabb775139310948fbdbefafa0f6a"
+    },
+    {
+      "path": "assets/projects/tilda-commercials-07.jpg",
+      "sha256": "5e2d796c2dbff49c9de7639520ccf321e531854349ca273e406e7d2ea32c1cc9"
+    },
+    {
+      "path": "assets/projects/tilda-commercials-08.jpg",
+      "sha256": "52c0b8b7a6e1d76ce0b4cdda17048f86afbd27bf14e75a61b6f20bb8c445126b"
+    },
+    {
+      "path": "assets/projects/tilda-commercials-09.jpg",
+      "sha256": "ec2b4abcc2c7f15f550fd5ae2cce77a66ca969e1474382fe36754e66903bef7b"
+    },
+    {
+      "path": "assets/projects/tilda-commercials-10.jpg",
+      "sha256": "5c3a03bd64d4d408f52a64b87d619b3ffeb54a9113fed257d12900e689d820ce"
+    },
+    {
+      "path": "assets/projects/tilda-commercials-11.jpg",
+      "sha256": "7547cc1d2ad69425b3cfe37001a13fddb1142cd4062d2e9ba5033a4452df9a6a"
+    },
+    {
+      "path": "assets/projects/tilda-commercials-12.jpg",
+      "sha256": "f2b5039dafa3c684411374bca6fb49c4b5ae65542c526c2c3a7df53f4dbef362"
+    },
+    {
+      "path": "assets/projects/tilda-commercials-13.jpg",
+      "sha256": "61659f2d3ff5dd86e04f74d901abc8e6819e8561cd52dcc5f622e58fd3d138a5"
+    },
+    {
+      "path": "assets/projects/tilda-docs-01.jpg",
+      "sha256": "41196090f90f9588a235e797c6002ec71bef5826984f5e3212760267ed92b441"
+    },
+    {
+      "path": "assets/projects/tilda-docs-02.png",
+      "sha256": "6c544f3ee08f8b4bbc44159a2bc0c6b3ff0cd46f0cd7824374f318657e82b7b4"
+    },
+    {
+      "path": "assets/projects/tilda-docs-03.jpg",
+      "sha256": "b05263a4da605ebbc0b198767f83878f51bc88b3ee534ee2ab5a5fa7db9f36a0"
+    },
+    {
+      "path": "assets/projects/tilda-docs-04.jpg",
+      "sha256": "a5af57cead7dee078d39eede6fd66e242569f49c68ebbf65728ceec9ee358391"
+    },
+    {
+      "path": "assets/projects/tilda-docs-05.jpg",
+      "sha256": "3dff172dab2a998d2bc5464cb06c182856167f5267a04ee122675f3e313136a8"
+    },
+    {
+      "path": "assets/projects/tilda-docs-06.jpg",
+      "sha256": "5d17716fdfac6a8e38906417a0fda2f634920c2ef79d3598970ebc12cde1d487"
+    },
+    {
+      "path": "assets/projects/tilda-music-video-01.jpg",
+      "sha256": "4a9272d55caf2b7c3fd967d9136f3d96d235cca55b6854250a824129d7f7d6bd"
+    },
+    {
+      "path": "assets/projects/tilda-music-video-02.jpg",
+      "sha256": "836ce80b34255a3d3d93daf19c7970bab67eb6e3ba445d44af9fba97b9c93309"
+    },
+    {
+      "path": "assets/projects/tilda-music-video-03.jpg",
+      "sha256": "3112e786a6a636c4813955c2b25a3fcc457ecb0c2fc97b530e521dbc4465f5b5"
+    },
+    {
+      "path": "assets/projects/tilda-music-video-04.jpg",
+      "sha256": "fb02a7659ed942e4e851063173d416a8a2b902eb05c8593e0a1bfd89b7d713c0"
+    },
+    {
+      "path": "assets/projects/tilda-music-video-05.jpg",
+      "sha256": "40f0e3d7d7ea8ebb3b1da49f03056db807ab32bdf5c4f2a94d0aabf3a8f3e814"
+    },
+    {
+      "path": "assets/projects/tilda-music-video-06.jpg",
+      "sha256": "5985a0b41eab3da4186246196d9a8d374e06ac6366bac23d0af18a08f58a2def"
+    },
+    {
+      "path": "m_s_cond/MarrSansCond-Bold.ttf",
+      "sha256": "ef989488440c41100570d1613827a26f19a454ebf078e47200a23e73fa9dee44"
+    },
+    {
+      "path": "m_s_cond/MarrSansCond-BoldItalic.ttf",
+      "sha256": "295108f766584d5b1b9fefe79cd363e7866e98a91cd3e2938a5090a46143d2a5"
+    },
+    {
+      "path": "m_s_cond/MarrSansCond-Light.ttf",
+      "sha256": "1236d9b8cae485900beca452cd56e533c63140df6e18b167b3c3ce73acf2dbae"
+    },
+    {
+      "path": "m_s_cond/MarrSansCond-LightItalic.ttf",
+      "sha256": "f45a23e5fa80f76b799c05c98263fe6e9c4499f79dad0fe18dc623ff14368f02"
+    },
+    {
+      "path": "m_s_cond/MarrSansCond-Medium.ttf",
+      "sha256": "01a9eb18ccc04b8b105c5582828ccb73dff72603800b7421757d8cd3347b3676"
+    },
+    {
+      "path": "m_s_cond/MarrSansCond-MediumItalic.ttf",
+      "sha256": "0e054f1e2fa36d5964bc2d2f15e86643257164e51db8a82fe542f7dd8621dd62"
+    },
+    {
+      "path": "m_s_cond/MarrSansCond-Regular.ttf",
+      "sha256": "2affbaed4d443a51e2b251359851efb13b156e6ff3477b20ec8ecc13f9211ca9"
+    },
+    {
+      "path": "m_s_cond/MarrSansCond-RegularItalic.ttf",
+      "sha256": "336cd0d5c7ea2a519d97bd2c810a48f7639616a9b3475459c9b04806a8742d49"
+    },
+    {
+      "path": "m_s_cond/MarrSansCond-Semibold.ttf",
+      "sha256": "367dda0579c7dffc1b601677616fa58a6a64337c3266ae6533c3a81d247320c2"
+    },
+    {
+      "path": "m_s_cond/MarrSansCond-SemiboldItalic.ttf",
+      "sha256": "05fade35c412b8a4b02303544c7b1f443730ebecb7af7c54df8b42f3e396a036"
+    },
+    {
+      "path": "m_s_cond/MarrSansCond-Thin.ttf",
+      "sha256": "568fd0a2f5efde974fb0fe157fc4b3718bf945bf570b331ea1bafe23f39c89a1"
+    },
+    {
+      "path": "m_s_cond/MarrSansCond-ThinItalic.ttf",
+      "sha256": "13a9b9b8c0b1fb342ab33574d06ecbe8e41014c74d18a004e5ced5fc0ad08d45"
+    }
+  ]
+}

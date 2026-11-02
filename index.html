@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <meta name="theme-color" content="#000000">
+    <title>portfolio</title>
+    <meta property="og:title" content="portfolio">
+    <meta name="twitter:title" content="portfolio">
+    <link rel="icon" href="./favicon.ico" sizes="any">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
+    <link rel="manifest" href="./site.webmanifest">
+    <link rel="preload" href="./m_s_cond/MarrSansCond-Bold.ttf" as="font" type="font/ttf" crossorigin>
+    <link rel="preload" href="./assets/collage/background%20face.png" as="image">
+    <link rel="stylesheet" href="./styles.css?v=d7081bcb6497">
+    <script type="module" src="./app.js?v=d7081bcb6497"></script>
+  </head>
+  <body>
+    <main class="portfolio about-view" data-category="about" aria-label="Портфолио">
+      <div class="background" aria-hidden="true"></div>
+      <button class="album-player" type="button" aria-label="Включить Shabazz Palaces — Fast Learner" aria-pressed="false" disabled>
+        <span class="album-record" aria-hidden="true"><span class="album-record-disc"></span></span>
+        <span class="album-sleeve" aria-hidden="true"></span>
+      </button>
+      <audio id="album-audio" src="./assets/audio/fast-learner.mp3" preload="none"></audio>
+      <span class="sr-only" id="album-status" role="status"></span>
+      <p class="about-copy" id="about-copy" aria-hidden="false">Film editor, set editor, director
+ and 
+screenwriter
+:3</p>
+      <section class="projects-viewport" aria-label="Проекты About" tabindex="0">
+        <div class="projects-track"></div>
+      </section>
+      <button class="menu-overlay" tabindex="-1" aria-label="Закрыть меню"></button>
+      <div class="hud" aria-hidden="true">
+        <i class="corner top-left"></i><i class="corner top-right"></i>
+        <i class="corner bottom-left"></i><i class="corner bottom-right"></i>
+      </div>
+      <div class="camera-controls">
+        <div class="socials" aria-label="Социальные сети">
+          <a href="http://t.me/ivan_donskoy" target="_blank" rel="noopener noreferrer" aria-label="Telegram Ивана Донского">tg</a>
+          <a href="https://www.instagram.com/4atsky" target="_blank" rel="noopener noreferrer" aria-label="Instagram Ивана Донского">inst</a>
+        </div>
+        <div class="recording" role="timer" aria-label="Время с открытия сайта">
+          <span class="recording-dot" aria-hidden="true"></span><span id="timer">00:00:00</span>
+        </div>
+      </div>
+      <button class="site-logo" aria-label="Ivan Donskoy — открыть About" aria-controls="about-copy">
+        <picture><source media="(max-width: 767px)" srcset="./assets/ivan-donskoy-logo-mobile.png"><img src="./assets/ivan-donskoy-logo-desktop.png" alt="Ivan Donskoy" width="411" height="70"></picture>
+      </button>
+      <nav class="menu" aria-label="Категории проектов">
+        <div class="menu-options" id="menu-options" inert>
+          <button class="menu-pill menu-option">Recent</button>
+          <button class="menu-pill menu-option" id="category-option">Cinema</button>
+        </div>
+        <button class="menu-pill menu-trigger" aria-expanded="false" aria-controls="menu-options">
+          <span id="category-label">About</span>
+          <span class="menu-icon" aria-hidden="true">
+            <svg class="arrows" viewBox="0 0 40 40"><path d="M20 1 6.5 19h27ZM20 39 6.5 21h27Z" fill="currentColor"/></svg>
+            <svg class="cross" viewBox="0 0 40 40"><path d="m8 8 24 24M32 8 8 32" fill="none" stroke="currentColor" stroke-width="7"/></svg>
+          </span>
+        </button>
+      </nav>
+      <p class="sr-only" id="category-announcement" aria-live="polite"></p>
+      <dialog class="video-dialog" aria-label="Просмотр проекта">
+        <button class="video-close" type="button" aria-label="Закрыть видео"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="m5 5 14 14M19 5 5 19" fill="none" stroke="currentColor" stroke-width="4"/></svg></button>
+        <video controls playsinline></video>
+        <iframe hidden title="Видео проекта" allow="autoplay; fullscreen; picture-in-picture; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>
+      </dialog>
+    </main>
+  </body>
+</html>
