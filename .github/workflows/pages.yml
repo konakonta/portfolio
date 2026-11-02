@@ -33,6 +33,19 @@ jobs:
           const webmanifest=JSON.parse(await readFile('_site/site.webmanifest','utf8'));
           for(const icon of webmanifest.icons || [])icon.src=icon.src.replace(/^\//,'./');
           await writeFile('_site/site.webmanifest',JSON.stringify(webmanifest));
+          // Publish the current public list alongside the site. An unavailable
+          // API during deployment keeps the last checked-in public snapshot.
+          try{
+            const response=await fetch(`${manifest.origin}/api/projects`,{signal:AbortSignal.timeout(15000)});
+            if(!response.ok)throw new Error(`Projects: HTTP ${response.status}`);
+            const data=await response.json();
+            if(!Array.isArray(data.projects))throw new Error('Invalid project response');
+            await writeFile('_site/projects-snapshot.json',JSON.stringify({...data,generatedAt:new Date().toISOString()}));
+          }catch(error){
+            const snapshot=JSON.parse(await readFile('_site/projects-snapshot.json','utf8'));
+            if(!Array.isArray(snapshot.projects))throw error;
+            console.warn('Using bundled project snapshot:',error.message);
+          }
           async function download(file){
             if(!/^(assets|m_s_cond)\//.test(file.path) || file.path.split('/').some(part=>part.startsWith('.')))throw new Error('Invalid asset path');
             const path=file.path.split('/').map(encodeURIComponent).join('/');
