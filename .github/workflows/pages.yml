@@ -1,0 +1,74 @@
+name: Publish portfolio
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: github-pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/configure-pages@v5
+      - name: Package public site and verified static assets
+        run: |
+          node --input-type=module <<'NODE'
+          import {readFile,writeFile,mkdir,readdir,copyFile} from 'node:fs/promises';
+          import {createHash} from 'node:crypto';
+          import {dirname} from 'node:path';
+          const manifest=JSON.parse(await readFile('pages-assets.json','utf8'));
+          if(manifest.origin!=='https://portfolio.racoome.workers.dev')throw new Error('Unexpected asset origin');
+          await mkdir('_site',{recursive:true});
+          for(const entry of await readdir('.',{withFileTypes:true})){
+            if(entry.isFile() && entry.name!=='pages-assets.json')await copyFile(entry.name,`_site/${entry.name}`);
+          }
+          const webmanifest=JSON.parse(await readFile('_site/site.webmanifest','utf8'));
+          for(const icon of webmanifest.icons || [])icon.src=icon.src.replace(/^\//,'./');
+          await writeFile('_site/site.webmanifest',JSON.stringify(webmanifest));
+          async function download(file){
+            if(!/^(assets|m_s_cond)\//.test(file.path) || file.path.split('/').some(part=>part.startsWith('.')))throw new Error('Invalid asset path');
+            const path=file.path.split('/').map(encodeURIComponent).join('/');
+            let bytes;
+            for(let attempt=0;attempt<3;attempt++){
+              try{
+                const response=await fetch(`${manifest.origin}/${path}`,{signal:AbortSignal.timeout(60000)});
+                if(!response.ok)throw new Error(`${file.path}: HTTP ${response.status}`);
+                bytes=Buffer.from(await response.arrayBuffer());
+                if(createHash('sha256').update(bytes).digest('hex')!==file.sha256)throw new Error(`Asset changed: ${file.path}`);
+                break;
+              }catch(error){if(attempt===2)throw error;}
+            }
+            await mkdir(dirname(`_site/${file.path}`),{recursive:true});
+            await writeFile(`_site/${file.path}`,bytes);
+          }
+          for(let i=0;i<manifest.files.length;i+=4)await Promise.all(manifest.files.slice(i,i+4).map(download));
+          await mkdir('_site/admin',{recursive:true});
+          const admin=`${manifest.origin}/admin/`;
+          await writeFile('_site/admin/index.html',`<!doctype html><html lang="ru"><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta http-equiv="refresh" content="0;url=${admin}"><title>Админка</title><a href="${admin}">Открыть админку</a></html>`);
+          console.log(`Packaged ${manifest.files.length} verified assets`);
+          NODE
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: _site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{steps.deployment.outputs.page_url}}
+    steps:
+      - name: Publish
+        id: deployment
+        uses: actions/deploy-pages@v4
